@@ -1,14 +1,12 @@
 import setuptools
 
 long_description = """\
-'segmenteverygrain' is a Python package that aims to detect grains (or grain-like objects) in images. 
-The goal is to develop an ML model that does a reasonably good job at detecting most of the grains in a photo, 
-so that it will be useful for determining grain size and grain shape, a common task in geomorphology and sedimentary geology.
+
 """
 
 setuptools.setup(
     name="segmenteverygrain",
-    version="0.1.7",
+    version="0.0.4",
     author="Zoltan Sylvester",
     author_email="zoltan.sylvester@beg.utexas.edu",
     description="a SAM-based model for segmenting grains in images of grains",
